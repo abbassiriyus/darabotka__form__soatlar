@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/ProximaNova-Bold.eot');
+    src: url('fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ProximaNova-Bold.woff2') format('woff2'),
+    url('fonts/ProximaNova-Bold.woff') format('woff'),
+    url('fonts/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/ProximaNova-Semibold.eot');
+    src: url('fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ProximaNova-Semibold.woff2') format('woff2'),
+    url('fonts/ProximaNova-Semibold.woff') format('woff'),
+    url('fonts/ProximaNova-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/ProximaNova-Regular.eot');
+    src: url('fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ProximaNova-Regular.woff2') format('woff2'),
+    url('fonts/ProximaNova-Regular.woff') format('woff'),
+    url('fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/ProximaNova-RegularIt.eot');
+    src: url('fonts/ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ProximaNova-RegularIt.woff2') format('woff2'),
+    url('fonts/ProximaNova-RegularIt.woff') format('woff'),
+    url('fonts/ProximaNova-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/ProximaNova-Light.eot');
+    src: url('fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ProximaNova-Light.woff2') format('woff2'),
+    url('fonts/ProximaNova-Light.woff') format('woff'),
+    url('fonts/ProximaNova-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Garamond Premiere Pro';
+    src: url('fonts/GaramondPremrPro-Smbd.eot');
+    src: url('fonts/GaramondPremrPro-Smbd.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GaramondPremrPro-Smbd.woff2') format('woff2'),
+    url('fonts/GaramondPremrPro-Smbd.woff') format('woff'),
+    url('fonts/GaramondPremrPro-Smbd.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Garamond Premiere Pro';
+    src: url('fonts/GaramondPremrPro-Med.eot');
+    src: url('fonts/GaramondPremrPro-Med.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GaramondPremrPro-Med.woff2') format('woff2'),
+    url('fonts/GaramondPremrPro-Med.woff') format('woff'),
+    url('fonts/GaramondPremrPro-Med.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

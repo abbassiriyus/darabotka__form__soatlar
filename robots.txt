@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /*.css
+Allow: /*.js
+
+Host: https://vip-finance.ru/
+Sitemap: https://vip-finance.ru/sitemap.xml

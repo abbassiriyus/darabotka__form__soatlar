@@ -1,0 +1,6 @@
+{
+    "require": {
+        "fenom/fenom": "^2.11",
+        "mesilov/bitrix24-php-sdk": "dev-master"
+    }
+}
