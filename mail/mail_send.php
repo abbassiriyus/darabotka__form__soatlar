@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
     $agree = isset($_POST['agree']) ? 'Yes' : 'No';
 
-    $to = "zayavki-krown@yandex.ru, feedback@vip-finance.ru"; // Замените на ваш email
+    $to = "zayavki-krown@yandex.ru, feedback@vip-finance.ru ,webabbas9@gmail.com"; // Замените на ваш email
     $subject = "vip-finance.ru Новое обращение от гражданина";
     $body = "Имя: $name\nТелефон: $phone\nEmail: $email\nСогласие: $agree\n\nСообщение:\n$message";
 

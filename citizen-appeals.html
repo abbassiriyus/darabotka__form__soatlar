@@ -209,6 +209,7 @@
             })
             .then(response => response.text())
             .then(data => {
+                console.log(data);
                 if (data.includes("Сообщение успешно отправлено.")) {
                     document.querySelector(".success-message").style.display = "block";
                     document.querySelector(".success-message").style.opacity = "1";
