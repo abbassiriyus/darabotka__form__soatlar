@@ -10,12 +10,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
     $agree = isset($_POST['agree']) ? 'Yes' : 'No';
 
-    $to = "zayavki-krown@yandex.ru, feedback@vip-finance.ru ,webabbas9@gmail.com"; // Замените на ваш email
+    $to = "zayavki-krown@yandex.ru, feedback@vip-finance.ru"; // Замените на ваш email
     $subject = "vip-finance.ru Новое обращение от гражданина";
     $body = "Имя: $name\nТелефон: $phone\nEmail: $email\nСогласие: $agree\n\nСообщение:\n$message";
 
     // Уникальная граница для MIME-сообщения
     $boundary = md5(uniqid(time()));
+
 
     // Заголовки письма для администратора
     $headers = "From: no-reply@vip-finance.ru\r\n"; // Замените на ваш домен
@@ -27,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $messageAdmin .= "Content-Type: text/plain; charset=utf-8\r\n";
     $messageAdmin .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
     $messageAdmin .= "$body\r\n\r\n";
-
+  
     // Обработка загруженных файлов
     $files = $_FILES['file'];
     for ($i = 0; $i < count($files['name']); $i++) {
